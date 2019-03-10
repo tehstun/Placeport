@@ -1,0 +1,62 @@
+### Getting a single image with width
+
+GET http://localhost:8080/img/99
+
+### Getting a image with a width and height
+
+GET http://localhost:8080/img/500/500
+
+### Getting a image with a width, height and sqaure
+
+GET http://localhost:8080/img/500/500?square=100
+
+### Getting a image with a width, height, sqaure and title
+
+GET http://localhost:8080/img/500/500?square=100&text=stephjen
+
+
+### Get bad image 1
+GET http://localhost:8080/img/0/500
+
+### Get bad image 2
+GET http://localhost:8080/img/10.3/500
+
+### Get bad image 3
+GET http://localhost:8080/img/2220/500
+
+### STATS - Paths Recent
+GET http://localhost:8080/stats/paths/recent
+
+### STATS - Texts Recent
+GET http://localhost:8080/stats/texts/recent
+
+### STATS - Sizes Recent
+GET http://localhost:8080/stats/sizes/recent
+
+### STATS - Sizes Top
+GET http://localhost:8080/stats/sizes/top
+
+### STATS - Referrers Top
+GET http://localhost:8080/stats/referrers/top
+
+### STATS - Stats Hits
+GET http://localhost:8080/stats/hits
+
+
+### STATS delete
+DELETE http://localhost:8080/stats
+
+### testing
+
+GET http://localhost:8080/img/99/981
+Referer: http://example.com/stphen/2
+
+### testing
+
+GET http://localhost:8080/img/99/981
+Referer: http://example.com/stphen/1
+
+
+### testing
+GET http://localhost:8080/img/99/981
+Referer: https://test.example/11
