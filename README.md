@@ -1,9 +1,11 @@
-# Placeport WebScript Server Coursework
+<h1 align="center">
+    <br>Placeport<br>
+</h1>
 
-Placeport was a University Coursework assignment over a couple
-of days period which focused on the implementation of a server.
-
-Resulting grade: 98/100
+<h4 align="center">Placeport was a University Coursework assignment over a couple
+of days period which focused on the implementation of a server.</h4>
+<h5 align="center">University Web Scripting Project 25%</h5>
+<h6 align="center">Resulting grade: 98/100</h6>
 
 ---
 
