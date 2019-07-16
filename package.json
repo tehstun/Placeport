@@ -27,7 +27,7 @@
   "devDependencies": {
     "cross-env": "^5.2.0",
     "node-fetch": "^2.3.0",
-    "nodemon": "^1.18.7",
+    "nodemon": "^1.19.1",
     "qunit": "2.8.x"
   }
 }
