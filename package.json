@@ -28,6 +28,6 @@
     "cross-env": "^5.2.0",
     "node-fetch": "^2.3.0",
     "nodemon": "^1.18.7",
-    "qunit": "2.8.x"
+    "qunit": "2.9.x"
   }
 }
