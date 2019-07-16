@@ -21,7 +21,7 @@
   "contributors": ["Matt Dennis <matthew.dennis@port.ac.uk>"],
   "license": "ISC",
   "dependencies": {
-    "canvas": "^2.1.0",
+    "canvas": "^2.5.0",
     "express": "^4.16.4"
   },
   "devDependencies": {
